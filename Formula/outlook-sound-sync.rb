@@ -6,7 +6,7 @@ class OutlookSoundSync < Formula
 
 
   def install
-    system ".src/install-outlook-sound-s", *std_configure_args, "--disable-silent-rules"
+    system ".src/install-outlook-sound-sync", *std_configure_args, "--disable-silent-rules"
   end
 
   test do
