@@ -6,7 +6,7 @@ class OutlookSoundSync < Formula
 
 
   def install
-    system "./src/install-outlook-sound-sync"
+    system "./src/install-outlook-sound-sync.sh"
   end
 
   test do
